@@ -24,7 +24,7 @@ quiz.addEventListener('submit', function (ev) {
 
     if (toutcorrecte) {
         let congratulation = document.createElement('div');
-        congratulation.id = 'alerte';  // Utilisez le même ID que dans votre CSS
+        congratulation.id = 'alerte';  
         congratulation.innerHTML = '<div class="alert-title">Congratulations!!</div>You got them all right!';
         congratulation.classList.add('congrats-container');
     
